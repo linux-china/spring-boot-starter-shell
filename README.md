@@ -80,3 +80,4 @@ spring.main.banner-mode=off
 ### References
 
 * Spring Shell Document: http://docs.spring.io/spring-shell/docs/current/reference/htmlsingle/
+* ASCII Generator: http://www.network-science.de/ascii/
