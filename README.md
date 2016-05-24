@@ -8,7 +8,7 @@ Spring Shell with Spring Boot Driven
 
 ```xml
     <dependency>
-       <groupId>com.mvnsearch.spring.boot</groupId>
+       <groupId>org.mvnsearch.spring.boot</groupId>
        <artifactId>spring-boot-starter-shell</artifactId>
        <version>1.0.0-SNAPSHOT</version>
     </dependency>
