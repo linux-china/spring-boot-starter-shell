@@ -19,7 +19,7 @@ Spring Shell with Spring Boot Driven
    <plugin>
        <groupId>org.springframework.boot</groupId>
        <artifactId>spring-boot-maven-plugin</artifactId>
-       <version>1.3.4.RELEASE</version>
+       <version>1.4.0.RELEASE</version>
        <executions>
            <execution>
                <goals>
