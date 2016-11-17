@@ -5,7 +5,7 @@
 
     <groupId>org.mvnsearch.spring.boot</groupId>
     <artifactId>spring-boot-starter-shell</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>spring-boot-starter-shell</name>
     <description>Spring Shell with Spring Boot Driven</description>
 
