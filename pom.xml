@@ -5,13 +5,13 @@
 
     <groupId>org.mvnsearch.spring.boot</groupId>
     <artifactId>spring-boot-starter-shell</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>spring-boot-starter-shell</name>
     <description>Spring Shell with Spring Boot Driven</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring-boot.version>1.4.1.RELEASE</spring-boot.version>
+        <spring-boot.version>1.4.2.RELEASE</spring-boot.version>
         <spring.shell.version>1.2.0.RELEASE</spring.shell.version>
     </properties>
 
@@ -67,7 +67,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.3</version>
+                <version>3.6.0</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
