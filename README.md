@@ -77,6 +77,11 @@ spring.main.banner-mode=off
 </configuration>
 ```
 
+
+### Todo
+
+Migrate to: https://github.com/spring-cloud/spring-cloud-dataflow/blob/master/spring-cloud-dataflow-shell-core/src/main/java/org/springframework/cloud/dataflow/shell/autoconfigure/BaseShellAutoConfiguration.java
+
 ### References
 
 * Spring Shell Document: http://docs.spring.io/spring-shell/docs/current/reference/htmlsingle/
