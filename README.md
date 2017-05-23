@@ -13,6 +13,7 @@ Spring Shell with Spring Boot Driven
        <version>1.0.0-SNAPSHOT</version>
     </dependency>
 ```
+
 * Add Spring Boot Maven Plugin in your pom.xml: 
 
 ```xml
@@ -33,6 +34,7 @@ Spring Shell with Spring Boot Driven
        </configuration>
    </plugin>
 ```
+
 * Add following code in your Spring Boot Application main method:
 
 ```
@@ -44,6 +46,19 @@ Spring Shell with Spring Boot Driven
         }
     }
 ```
+
+* Of course, create your Spring Shell commands.
+
+```
+@Component
+public class HelloCommands implements CommandMarker {
+    @CliCommand(value = "hello", help = "CMS ")
+    public String hello() {
+        return "hello";
+    }
+}
+```
+
 * Build your application and run it.
 
 ```
@@ -52,11 +67,13 @@ Spring Shell with Spring Boot Driven
 ```
 
 ### Tips
+
 * Possible Configuration in your application.properties: 
 
 ```properties
 spring.main.banner-mode=off
 ```
+
 * logback-spring.xml configuration to mute some log: 
 
 ```xml
